@@ -1,0 +1,87 @@
+body{
+    height:100%;
+    background: linear-gradient(27deg, rgba(108,55,246,1) 0%, rgba(130,114,245,1) 48%, rgba(209,191,241,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    margin-top: 20px;
+    width:100%;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    color: rgb(243, 255, 220);
+}
+.container{
+    width:100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.helplines, .oxygen, .oxysupply, .remdesivir, .vaccine{
+    
+    background-color: rgb(216, 226, 250);
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: rgb(55, 65, 246, 0.6) 0 10px 15px 2px;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+.helplines ul{
+    list-style:circle;
+}
+.oxygen, .oxysupply, .remdesivir, .vaccine{
+    margin-top: 25px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .vaccine a{
+      text-decoration: none;
+      color: indigo;
+  }
+  .footer{
+      margin-top: 80px;
+      min-height: 10em;
+      background-color: indigo;
+      display: flex;
+      color: ivory;
+      justify-content: space-between;
+  }
+  .contact{
+      width: 50%;
+      padding: 10px;
+  }
+  .social{
+      display: flex;
+      width: 50%;
+      padding:15px;
+      justify-content: space-around;
+  }
+  .fb{
+      display: block;
+      float: left;
+  }
+  .heading{
+      float: left;
+      clear: right;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
